@@ -1,0 +1,11 @@
+.list{
+  color:darkgray;
+}
+
+.list a{
+  color:gray;
+}
+
+.list a:hover{
+  text-decoration:underline;
+}

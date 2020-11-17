@@ -1,0 +1,40 @@
+.centercolumn {
+  float: left;
+  width: 58%;
+  padding-right: 20px
+}
+
+/* Right column */
+.leftcolumn {
+  float: left;
+  width: 17%;
+  padding-right: 20px;
+}
+
+.rightcolumn{
+  float:left;
+  width:25%;
+}
+
+@media screen and (max-width: 1250px) {
+ .leftcolumn{
+    display: none;
+  }
+.rightcolumn{
+  width: 25%;
+ }
+.centercolumn{
+  width:75%;
+ }
+}
+
+@media screen and (max-width: 1000px) {
+  .centercolumn{
+    width: 100%;
+    padding: 0;
+    flex-direction:;
+  }
+  .rightcolumn, .leftcolumn{
+    display:none;
+  }
+}
