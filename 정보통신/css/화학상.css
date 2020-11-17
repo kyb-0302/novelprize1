@@ -1,0 +1,5 @@
+.HTML5,body{background: rgb(111,103,240);
+background: linear-gradient(180deg, rgb(0, 255, 159) 0%, rgb(179, 255, 236) 35%, rgba(81,207,219,1) 100%);}
+* {
+  box-sizing: border-box;
+}
